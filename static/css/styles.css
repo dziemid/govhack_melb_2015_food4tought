@@ -3,6 +3,7 @@
 
 .navbar.navbar-inverse {
     background-color: white;
+    
 }
 
 /* Navbar title */
@@ -60,3 +61,4 @@
     background-image: url('header.jpeg');
     color:white;
 }
+
