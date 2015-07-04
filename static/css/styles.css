@@ -3,7 +3,7 @@
 
 .navbar.navbar-inverse {
     background-color: white;
-    
+
 }
 
 /* Navbar title */
@@ -58,7 +58,7 @@
 }
 
 .jumbotron {
-    background-image: url('header.jpeg');
+    background-image: url('caps.jpg');
     color:white;
 }
 
