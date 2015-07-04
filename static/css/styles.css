@@ -1,58 +1,57 @@
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-.navbar-default .navbar-brand {
-  color: #030e11;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #000000;
-}
-.navbar-default .navbar-text {
-  color: #030e11;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #030e11;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #030e11;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #030e11;
-}
-.navbar-default .navbar-link {
-  color: #030e11;
-}
-.navbar-default .navbar-link:hover {
-  color: #000000;
+
+/* Navbar background */
+
+.navbar.navbar-inverse {
+    background-color: white;
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #030e11;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #000000;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #000000;
-    background-color: #ffffff;
-  }
+/* Navbar title */
+
+.navbar-inverse .navbar-brand {
+    color: lightgray;
+}
+
+/* Focus/hover state for title */
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: black;
+}
+
+/* Navbar links */
+
+.navbar-inverse .navbar-nav > li > a {
+    color: orange;
+}
+
+/* Navbar links hover/focus states */
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: pink;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+/* Mobile toggle button border */
+
+.navbar-inverse .navbar-toggle {
+    border-color: lightgreen;
+}
+
+/*Mobile toggle button hover/focus*/
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: slategray;
+}
+
+/* Mobile icon bar colors */
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
