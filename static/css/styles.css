@@ -60,5 +60,6 @@
 .jumbotron {
     background-image: url('caps.jpg');
     color:white;
+    background-repeat: no-repeat;
 }
 
