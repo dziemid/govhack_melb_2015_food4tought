@@ -56,5 +56,11 @@
     background-color: #CCC;
 }
 
+html {
+    background:url('../../images/IMG_9141.JPG') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size: cover;
+}
 
 
