@@ -46,7 +46,12 @@
     </div>
 
     <div class="container">
-        <iframe width='100%' height='520' frameborder='0' src='https://pryor365.cartodb.com/viz/b393cbe0-2221-11e5-9d47-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        <?php
+            if ($_GET["find"]==empty_spaces)
+                echo "<iframe width='100%' height='520' frameborder='0' src='https://pryor365.cartodb.com/viz/b393cbe0-2221-11e5-9d47-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
+            else
+                echo "<iframe width='100%' height='520' frameborder='0' src='https://pryor365.cartodb.com/viz/b393cbe0-2221-11e5-9d47-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
+        ?>
     </div>
         
                 <!-- import jQuery -->
