@@ -10,6 +10,12 @@ app = Flask(__name__, template_folder=tmpl_dir)
 def home():
 	return render_template('./index.html')
 
+@app.route('/map.html')
+
+def home2():
+	return render_template('./map.html')
+
+
 
 if __name__ == '__main__':
 	app.run(debug=True)
