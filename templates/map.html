@@ -32,9 +32,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a>
                 </li>
-                <li><a href="index.html">Empty Spaces</a>
+                <li><a href="#empty_spaces">Empty Spaces</a>
                 </li>
-                <li><a href="map.html">Community Gardens</a>
+                <li><a href="#com_gardens">Community Gardens</a>
                 </li>
                 <li><a href="#about">About</a>
                 </li>
@@ -45,18 +45,14 @@
       </div>
     </div>
 
-        
-
-        
     <div class="container">
-      <div class="row">
-          <div class="col-md-12 jumbotron">
-
-              <div class="text-center">
-                <h1>Pop-Up Gardens in your Neighbourhood</h1>
-                <p>Greening space is about activating unloved spaces by opening access to prospective community gardens. We locate potential area for new pop up gardens, to beautify the area, to provide food locally and to create community around cultivating produce. We connect with schools, social enterprise and community organisations to maintain or upkeep the gardens for public use.</p>
-
-        
+        <?php
+            if ($_GET["find"]==empty_spaces)
+                echo "<iframe width='100%' height='520' frameborder='0' src='https://pryor365.cartodb.com/viz/b393cbe0-2221-11e5-9d47-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
+            else
+                echo "<iframe width='100%' height='520' frameborder='0' src='https://pryor365.cartodb.com/viz/b393cbe0-2221-11e5-9d47-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
+        ?>
+    </div>
         
                 <!-- import jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
