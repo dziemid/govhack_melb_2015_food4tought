@@ -10,10 +10,10 @@ app = Flask(__name__, template_folder=tmpl_dir)
 def home():
 	return render_template('./index.html')
 
-@app.route('/map.php')
+@app.route('/map.html')
 
 def home2():
-	return render_template('./map.php')
+	return render_template('./map.html')
 
 
 
