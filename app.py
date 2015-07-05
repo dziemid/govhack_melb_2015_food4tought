@@ -26,7 +26,10 @@ def watermap():
 def biomap():
 	return render_template('./bio.html')
 
+@app.route('/about.html')
 
+def about():
+	return render_template('./about.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
